@@ -28,7 +28,7 @@ function imc1 () {
             clasifica = 'obesidade mórbida';
         }
 
-        resultado.textContent = '${nome} seu IMC é ${IMC} e por isso seu estado é: ${clasifica}';
+        resultado.textContent = `${nome} seu IMC é ${IMC} e por isso seu estado é: ${clasifica}``;
         
     } else {
         resultado.textContent = 'Valores não preenchidos, favor validar se todos os campos estão preenchidos.';
